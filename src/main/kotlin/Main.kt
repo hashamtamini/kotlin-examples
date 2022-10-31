@@ -43,5 +43,5 @@ for (i in 1..5)print(i)
         println("he is murderer")*/
     var shop = 3
     while (shop>1)
-        print(shop--)
+        print(shop--);
 }
