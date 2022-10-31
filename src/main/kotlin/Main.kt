@@ -44,5 +44,5 @@ for (i in 1..5)print(i)
     var shop = 3
     while (shop>1)
         print(shop--)
-    val dsjfk =3
+
 }
