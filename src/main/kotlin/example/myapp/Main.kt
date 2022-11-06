@@ -1,12 +1,11 @@
 package example.myapp
-
 fun buildAquarium(){
-    val firstMonth=Aquarium(height =39)
-firstMonth.printSize()
-    val secondMonthChanges = Aquarium(width=25)
-secondMonthChanges.printSize()
-    val thirdMonthChanges = Aquarium(height = 80,width = 38,lenth =199)
-    thirdMonthChanges.printSize()
+    val aquarium6 = Aquarium(length = 25, width = 25 , height = 40)
+    aquarium6.printSize()
+    val myTower = TowerTank(diameter = 25, height = 40)
+    myTower.printSize()
+    val aquarium2 = Aquarium(numberOfFishes = 19)
+    aquarium2.printSize()
 }
 fun main (){
     buildAquarium()
